@@ -29,3 +29,6 @@ Logout:
 ```python
 fb.do_logout()
 ```
+How to get ChromeDriver?
+![Screenshot from 2021-05-10 10-48-58](https://user-images.githubusercontent.com/53506835/117609318-6c3e9080-b17d-11eb-81e7-d468057e4119.png)
+
