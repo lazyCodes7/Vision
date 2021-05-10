@@ -18,7 +18,7 @@ Wit.ai makes it easy for developers to build applications and devices that you c
 
 
 ## Using an automator.
-## Usage:
+### Usage:
 ```python
 fb = FacebookAutomater()
 ```
@@ -58,4 +58,8 @@ fb.do_logout()
 - openCV
 - haar-cascades
 - Selenium
+## Whats next for Vision?
+- Covering many more social media sites
+- Making a webapp, which would make it even more accessible
+- Using Graph API to add features like making a comment, liking a post etc
 
