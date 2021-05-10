@@ -20,6 +20,7 @@ Wit.ai makes it easy for developers to build applications and devices that you c
 ## Using an automator.
 ### Usage:
 ```python
+from FacebookAutomater import *
 fb = FacebookAutomater()
 ```
 ### Initiate chrome:
