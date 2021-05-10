@@ -1,7 +1,7 @@
 # Vision
 Making Facebook accessible to the blind!\
 About FacebookAutomater.py:\
-Usage:
+## Usage:
 ```python
 fb = FacebookAutomater()
 ```
@@ -9,7 +9,6 @@ fb = FacebookAutomater()
 ```python
 fb.initiate_chrome()
 ```
-### Make sure to have Chromedriver installed!
 
 ### Load facebook:
 ```python
