@@ -33,7 +33,7 @@ The project also requires Graph API and an app has to be created for that in dev
 ```python
 TOKEN = "your graph-api token here"
 ```
-Make sure chromedriver is installed and is on PATH. Instruction are given later on. /
+Make sure chromedriver is installed and is on PATH. Instruction are given later on. 
 
 After the following steps, run the following command to start the bot.
 
@@ -74,7 +74,8 @@ fb.do_logout()
 ```
 ### How to get ChromeDriver?
 ![Screenshot from 2021-05-10 10-48-58](https://user-images.githubusercontent.com/53506835/117609318-6c3e9080-b17d-11eb-81e7-d468057e4119.png)
-
+## Deploying it?
+The bot can also be deployed after making some minor changes. For knowing how to deploy a bot to sites like heroku, this ![site](https://dev.to/josylad/how-to-deploy-a-python-script-or-bot-to-heroku-in-5-minutes-9dp) might be useful!
 ## Ingredients
 - Python
 - Telegram API
