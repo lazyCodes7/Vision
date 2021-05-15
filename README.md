@@ -42,7 +42,7 @@ python3 bot.py
 ```
 After the initial start button is pressed, there is no help required from anyone and a blind person can enjoy facebook just using voice and even check their safety from time to time by saying something like "Am I safe?" to ensure privacy. 
 
-## Using an automator.
+## Using the automator.
 ### Usage:
 ```python
 from FacebookAutomater import *
@@ -74,8 +74,10 @@ fb.do_logout()
 ```
 ### How to get ChromeDriver?
 ![Screenshot from 2021-05-10 10-48-58](https://user-images.githubusercontent.com/53506835/117609318-6c3e9080-b17d-11eb-81e7-d468057e4119.png)
+
 ## Deploying it?
 The bot can also be deployed after making some minor changes. For knowing how to deploy a bot to sites like heroku, this ![site](https://dev.to/josylad/how-to-deploy-a-python-script-or-bot-to-heroku-in-5-minutes-9dp) might be useful!
+
 ## Ingredients
 - Python
 - Telegram API
@@ -85,6 +87,7 @@ The bot can also be deployed after making some minor changes. For knowing how to
 - openCV
 - haar-cascades
 - Selenium
+
 ## Whats next for Vision?
 - Covering many more social media sites
 - Making a webapp, which would make it even more accessible
