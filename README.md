@@ -16,7 +16,31 @@ Social Media has changed the way we live our lives a lot. Still, this technology
 ## About Wit.ai
 Wit.ai makes it easy for developers to build applications and devices that you can talk or text to. Our vision is to empower developers with an open and extensible natural language platform. 
 
+## Setting up the project
+Clone the repo
+```
+git clone https://github.com/lazyCodes7/Vision.git
+```
+Get a bot token from BotFather and enter it inside "" in bot.py or use something like os.environ.get() using a .env file
+```python
+updater = Updater("", use_context=True)
+```
+Next for wit.ai go to the site and create an app and get the access token which will be used in SpeechHandling.py
+```python
+wit_access_token = 'your-access-token'
+```
+The project also requires Graph API and an app has to be created for that in dev platform and entered in get_posts.py
+```python
+TOKEN = "your graph-api token here"
+```
+Make sure chromedriver is installed and is on PATH. Instruction are given later on./
 
+After the following steps, run the following command to start the bot.
+
+```python
+python3 bot.py
+```
+After the initial start button is pressed, there is no help required from anyone and a blind person can easily access the bot and even check their safety from time to time by saying something like "Am I safe?".
 ## Using an automator.
 ### Usage:
 ```python
