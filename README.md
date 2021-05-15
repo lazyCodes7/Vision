@@ -33,14 +33,15 @@ The project also requires Graph API and an app has to be created for that in dev
 ```python
 TOKEN = "your graph-api token here"
 ```
-Make sure chromedriver is installed and is on PATH. Instruction are given later on./
+Make sure chromedriver is installed and is on PATH. Instruction are given later on. /
 
 After the following steps, run the following command to start the bot.
 
 ```python
 python3 bot.py
 ```
-After the initial start button is pressed, there is no help required from anyone and a blind person can easily access the bot and even check their safety from time to time by saying something like "Am I safe?".
+After the initial start button is pressed, there is no help required from anyone and a blind person can enjoy facebook just using voice and even check their safety from time to time by saying something like "Am I safe?" to ensure privacy. 
+
 ## Using an automator.
 ### Usage:
 ```python
